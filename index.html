@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>RadioPower</title>
+
+<!--=================================
+Meta tags
+=================================-->
+<meta name="description" content="">
+<meta content="yes" name="apple-mobile-web-app-capable" />
+<meta name="viewport" content="minimum-scale=1.0, width=device-width, maximum-scale=1, user-scalable=no" />
+
+<!--=================================
+Style Sheets
+=================================-->
+<link href='http://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,400italic,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="assets/css/flexslider.css">
+<link rel="stylesheet" type="text/css" href="assets/css/prettyPhoto.css">
+<link rel="stylesheet" type="text/css" href="assets/css/jquery.vegas.css">
+<link rel="stylesheet" type="text/css" href="assets/css/jquery.mCustomScrollbar.css">
+<link rel="stylesheet" href="assets/css/main.css">
+
+<!--<link rel="stylesheet" type="text/css" href="assets/css/blue.css">
+<link rel="stylesheet" type="text/css" href="assets/css/orange.css">
+<link rel="stylesheet" type="text/css" href="assets/css/red.css">
+<link rel="stylesheet" type="text/css" href="assets/css/green.css">
+<link rel="stylesheet" type="text/css" href="assets/css/purple.css">-->
+
+<script async  src="assets/js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+<script defer  src="assets/js/jquery.js"></script>
+<script defer  src="assets/js/ajaxify.min.js"></script>
+
+</head>
+<body>
+
+
+
+<!--=================================
+	Header
+	=================================-->
+
+  <div class="social-links">
+    <div class="container">
+      <ul class="social">
+        <li><a href="https://www.facebook.com/"><span class="fa fa-facebook"></span></a></li>
+        <li ><a href="https://www.youtube.com/"><span class="fa fa-youtube"></span></a></li>
+        <li ><a href="#"><span class="fa fa-instagram"></span></a></li>
+      </ul>
+    </div>
+  </div>
+  <nav class="navbar yamm navbar-default">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle fa fa-navicon"></button>
+        <a class="navbar-brand" href="index.html">
+            <img src="assets/img/basic/logo.png" alt="logo" />
+        </a>
+      </div>
+     
+
+          <ul class="nav navbar-nav">
+            <li class="active dropdown"><a href="#"> <i class="fa fa-caret-right"></i></a>
+              <ul class="dropdown-menu">
+                <li><a href="index.html"></a></li>
+              </ul>
+            </li>
+            <li class="dropdown"><a href="#"> <i class="fa fa-caret-right"></i></a>
+              <ul class="dropdown-menu">
+              	
+
+              </ul>
+            </li>
+            <li class="yamm-fw dropdown"><a href="#"> <i class="fa fa-caret-right"></i></a>
+              <ul class="dropdown-menu">
+              	
+                <li>
+                  <div class="yamm-content">
+                    <div class="row">
+                      <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                        <div class="row">
+                          <div class="yamm-artist-info">
+                            
+                            </div>
+                            <!--col--> 
+
+                      <!--col-->
+                      
+
+                      
+                      <!--yamm artist album--> 
+                      
+                    </div>
+                    <!--row--> 
+                  </div>
+                  <!--yamm content--> 
+                </li>
+              </ul>
+            </li>
+            <li><a href="gallery.html"></a></li>
+            <li><a href="contact.html" >Contact</a></li>
+          </ul>
+        </div>
+        <!--/.nav-collapse --> 
+        
+      </div>
+    </div>
+  </nav>
+</header>
+
+<!--=================================
+Slider Images
+=================================-->
+
+<ul class="vegas-slides hidden">
+  <li><img data-fade='2000' src="assets/img/BG/bg1.jpg" alt="" /></li>
+  <li><img data-fade='2000' src="assets/img/BG/bg2.jpg" alt="" /></li>
+  <li><img data-fade='2000' src="assets/img/BG/bg3.jpg" alt="" /></li>
+  <li><img data-fade='2000' src="assets/img/BG/bg4.jpg" alt="" /></li>
+  
+</ul>
+
+<!--=================================
+Player (Audio Player)
+=================================-->
+
+<html lang="es_ES">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,viewport-fit=cover" />
+        <title>Radio Power</title>
+        <link rel="preconnect" href="https://fonts.bunny.net/" />
+        <meta property="og:title" content="Radio Power" />
+        <meta property="og:description" content="RadioPower" />
+
+        <link rel="stylesheet" href="css/main.css" />
+        <link rel="stylesheet" href="custom.css" />
+
+        <script src="js/main.js" defer></script>
+        <script>
+            window.streams = {
+                timeRefresh: 5000,
+                station: {
+                    name: "Radio Power",
+                    description: "Con el poder de los clasicos",
+                    service: "spotify",
+                    stream_url: "https://stream.zeno.fm/cxf1r8zukyhuv",
+                    social: {
+                        facebook: "https://facebook.com",
+                        instagram: "https://instagram.com",
+                    },
+                },
+            };
+        </script>
+    </head>
+
+    <body class="preload">
+        <div class="app-newplayer">
+            <!-- Background -->
+            <img src="assets1/cover.png" alt="portada" class="player-cover-image song-cover" height="100%" width="100%" />
+            <!-- Player -->
+            <div class="player flex column">
+                <div class="player-wrapper">
+                    <!-- Header -->
+                    <header class="header">
+                        <div class="header-wrapper flex justify-center">
+                            <!-- logo -->
+                            <a class="header-logo">
+                                <img class="header-logo-img" src="assets1/logo.png" alt="logo" />
+                            </a>
+                        </div>
+                    </header>
+                    <!-- Cover -->
+                    <div class="player-cover flex column items-center">
+                        <div class="player-artwork-wrapper">
+                            <div class="player-social socials"></div>
+                            <div class="player-artwork">
+                                <img alt="artwork" height="600" src="assets1/cover.png" width="600" />
+                            </div>
+
+                            <!-- Controladores -->
+                            <div class="player-controller">
+                                <!-- Modal -->
+                                <button class="player-button player-button-modal" data-outside="modal-share">
+                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="24px" width="24px">
+                                        <path
+                                            d="M13.5759 17.2714L8.46576 14.484C7.83312 15.112 6.96187 15.5 6 15.5C4.067 15.5 2.5 13.933 2.5 12C2.5 10.067 4.067 8.5 6 8.5C6.96181 8.5 7.83301 8.88796 8.46564 9.51593L13.5759 6.72855C13.5262 6.49354 13.5 6.24983 13.5 6C13.5 4.067 15.067 2.5 17 2.5C18.933 2.5 20.5 4.067 20.5 6C20.5 7.933 18.933 9.5 17 9.5C16.0381 9.5 15.1669 9.11201 14.5343 8.48399L9.42404 11.2713C9.47382 11.5064 9.5 11.7501 9.5 12C9.5 12.2498 9.47383 12.4935 9.42408 12.7285L14.5343 15.516C15.167 14.888 16.0382 14.5 17 14.5C18.933 14.5 20.5 16.067 20.5 18C20.5 19.933 18.933 21.5 17 21.5C15.067 21.5 13.5 19.933 13.5 18C13.5 17.7502 13.5262 17.5064 13.5759 17.2714Z"
+                                        ></path>
+                                    </svg>
+                                </button>
+                                <!-- Reproducir/Pausar -->
+                                <button aria-label="Play/Pause" class="player-button player-button-play flex-none">
+                                    <svg class="icon-play" viewBox="0 0 24 28">
+                                        <path d="M22.5 11.5A3 3 0 0122.5 16.5L4.5 27.5A3 3 0 010 25V3A3 3 0 014.5.5Z"></path>
+                                    </svg>
+                                </button>
+                                <!-- Volumen -->
+                                <div class="player-button-volume relative">
+                                    <button class="player-button player-button-volume-toggle">
+                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="24px" width="24px">
+                                            <path
+                                                d="M2 16.0001H5.88889L11.1834 20.3319C11.2727 20.405 11.3846 20.4449 11.5 20.4449C11.7761 20.4449 12 20.2211 12 19.9449V4.05519C12 3.93977 11.9601 3.8279 11.887 3.73857C11.7121 3.52485 11.3971 3.49335 11.1834 3.66821L5.88889 8.00007H2C1.44772 8.00007 1 8.44778 1 9.00007V15.0001C1 15.5524 1.44772 16.0001 2 16.0001ZM23 12C23 15.292 21.5539 18.2463 19.2622 20.2622L17.8445 18.8444C19.7758 17.1937 21 14.7398 21 12C21 9.26016 19.7758 6.80629 17.8445 5.15557L19.2622 3.73779C21.5539 5.75368 23 8.70795 23 12ZM18 12C18 10.0883 17.106 8.38548 15.7133 7.28673L14.2842 8.71584C15.3213 9.43855 16 10.64 16 12C16 13.36 15.3213 14.5614 14.2842 15.2841L15.7133 16.7132C17.106 15.6145 18 13.9116 18 12Z"
+                                            ></path>
+                                        </svg>
+                                    </button>
+                                    <div class="dropdown">
+                                        <div class="player-range-wrapper">
+                                            <input aria-label="Volume" class="player-volume" max="100" min="0" name="player" type="range" value="100" />
+                                            <div class="player-range-fill"></div>
+                                            <div class="player-range-thumb"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Descripción -->
+                    <div class="player-cover-title flex column">
+                        <div class="player-mini">
+                            <div class="player-title song-name fw-700 color-title">Radio Power</div>
+                            <div class="player-equalizer">
+                                <div class="equalizer"><span></span></div>
+                                <span class="fw-800">En vivo</span>
+                            </div>
+                        </div>
+                        <span class="player-text song-artist fw-500">Con el poder de los clasicosr</span>
+                    </div>
+                </div>
+                <button class="player-fullscreen">
+                    <svg class="i i-angle-up" viewBox="0 0 24 24">
+                        <path d="m6 15 6-6 6 6"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <div class="player-modal" id="modal-share">
+            <button data-close="" class="player-modal-x">
+                <svg class="i i-xmark" viewBox="0 0 24 24">
+                    <path d="M18 6 6 18M6 6l12 12"></path>
+                </svg>
+            </button>
+            <h2 class="player-title">Redes sociais</h2>
+            <img src="assets1/cover.png" alt="portada modal" class="player-modal-image" height="600px" width="600px" />
+            <div class="player-title song-name fw-700">Radio Power</div>
+            <span class="player-text song-artist">Musica sem parar!</span>
+            <div class="modal-social socials"></div>
+        </div>
+        <div class="modal-overlay"></div>
+    </body>
+</html>
+
+
+      <!--=================================
+      Home
+      =================================-->
+      <section id="home-slider">
+        <div class="container">
+          <div class="home-inner">
+
+            <div id="homeSliderNav" class="slider-nav">
+              <a id="home-prev" href="#" class="prev fa fa-chevron-left"></a>
+              <a id="home-next" href="#" class="next fa fa-chevron-right"></a>
+            </div><!--sliderNav-->
+
+            <div id="flex-home" class="flexslider" data-animation="slide" data-animationSpeed="1000" data-autoPlay="true" data-slideshowSpeed="7000">
+              <ul class="slides">
+                <li> <img src="assets/img/slider/slider.jpg" alt="" >
+                  
+                </li>
+                <li> <img src="assets/img/slider/slider-1.jpg" alt="" >
+                  
+                </li>
+                <li> <img src="assets/img/slider/slider-2.jpg" alt="" >
+                  
+                </li>
+                <li> <img src="assets/img/slider/slider-3.jpg" alt="" >
+                  
+                </li>
+                <li> <img src="assets/img/slider/slider-4.jpg" alt="" >
+                  
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--=================================
+      Player Wraper
+      =================================-->
+	  
+      <!--=================================
+      Latest Albumbs
+      =================================-->
+      
+      <section id="albums">
+        <div class="container">
+          <h1>Nuestros artistas</h1>
+          <div class="top-carouselnav"> <a href="#" class="prev-album"><span class="fa fa-caret-left"></span></a> <a href="" class="next-album"><span class="fa fa-caret-right"></span></a> </div>
+          <div class="albums-carousel">
+            <div class="album"> <img src="assets/img/albums/1.jpg" alt=""/>
+              <div class="hover">
+                <ul>
+                  <li><a href="assets/img/albums/1.jpg" data-rel="prettyPhoto"><span class="fa fa-search"  ></span></a></li>
+				  <li><a href="https://youtu.be/vRBgZ4aMPio" target="_blank"><span class="fa fa-youtube-play"></span></a></li>
+                </ul>
+                <h3>Diva virtual </h3>
+                <h2>Don Omar</h2>
+              </div>
+            </div>
+            <!--\\album-->
+            
+            <div class="album"> <img src="assets/img/albums/2.jpg" alt=""/>
+              <div class="hover">
+                <ul>
+                  <li><a href="assets/img/albums/2.jpg" data-rel="prettyPhoto"><span class="fa fa-search"  ></span></a></li>
+                  <li><a href="album-detail.html"><span class="fa fa-link"></span></a></li>
+                </ul>
+                <h3>Top 40 - Old School</h3>
+                <h2>Dj Renzo</h2>
+              </div>
+            </div>
+            <!--\\album-->
+            
+            <div class="album"> <img src="assets/img/albums/3.jpg" alt=""/>
+              <div class="hover">
+                <ul>
+                  <li><a href="assets/img/albums/3.jpg" data-rel="prettyPhoto"><span class="fa fa-search"  ></span></a></li>
+                  <li><a href="album-detail.html"><span class="fa fa-link"></span></a></li>
+                </ul>
+                <h3>English - Top 40</h3>
+                <h2>Dj Rosh</h2>
+              </div>
+            </div>
+            <!--\\album-->
+            
+            <div class="album"> <img src="assets/img/albums/4.jpg" alt=""/>
+              <div class="hover">
+                <ul>
+                  <li><a href="assets/img/albums/4.jpg" data-rel="prettyPhoto"><span class="fa fa-search"  ></span></a></li>
+                  <li><a href="album-detail.html"><span class="fa fa-link"></span></a></li>
+                </ul>
+                <h3>Latin - Top40</h3>
+                <h2>Dj Eymapa</h2>
+              </div>
+            </div>
+            <!--\\album-->
+                         
+          </div>
+        </div>
+      </section>
+      <div class="clearfix"></div>
+      <!--=================================
+      Upcoming events
+      =================================-->
+      
+      
+
+<!--=================================
+	Footer
+	=================================-->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3 col-md-3 col-sm-3">
+        <h4><span class="fa fa-sitemap"></span>browse around</h4>
+        
+      </div>
+      <!--\\column-->
+      
+      <div class="col-lg-3 col-md-3 col-sm-3">
+        <h4><span class="fa fa-twitter"></span>Latest Tweet</h4>
+       
+      </div>
+      <!--\\column-->
+      
+      <div class="col-lg-3 col-md-3 col-sm-3">
+        <h4><span class="fa fa-flickr"></span>Flicker Feed</h4>
+ 
+      </div>
+      <!--\\column-->
+      
+      <div class="col-lg-3 col-md-3 col-sm-3">
+        <h4><span class="fa fa-envelope"></span>newsletter signup</h4>
+        
+      </div>
+      <!--\\column--> 
+      
+    </div>
+    <!--\\row--> 
+  </div>
+  <!--\\container--> 
+</footer>
+
+<!--=================================
+Script Source
+=================================--> 
+
+<script defer  src="assets/js/bootstrap.min.js"></script>
+<script defer  src="assets/js/jquery.easing-1.3.pack.js"></script>
+<script defer  src="assets/js/jquery.mCustomScrollbar.concat.min.js"></script> 
+<script defer  src="assets/js/jquery.mousewheel.min.js"></script> 
+<script defer  src="assets/js/jflickrfeed.min.js"></script> 
+<script defer  src="assets/js/jquery.flexslider-min.js"></script> 
+<script defer  src="assets/js/jquery.carouFredSel-6.2.1-packed.js"></script> 
+<script defer  src="assets/js/tweetie.min.js"></script> 
+<script defer  src="assets/js/jquery.prettyPhoto.js"></script> 
+<script defer  src="assets/jPlayer/jquery.jplayer.min.js"></script> 
+<script defer  src="assets/jPlayer/add-on/jplayer.playlist.min.js"></script> 
+<script defer  src="assets/js/jquery.vegas.min.js"></script> 
+<script defer  src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script> 
+<script defer  src="assets/js/jquery.calendar-widget.js"></script> 
+<script defer  src="assets/js/isotope.js"></script>
+<script defer  src="assets/js/main.js"></script>  
+
+<script>/*Place Your Google Analytics code here*/</script>
+
+</body>
+</html>

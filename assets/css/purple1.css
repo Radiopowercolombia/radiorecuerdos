@@ -1,0 +1,14 @@
+/* CSS Document */
+
+
+.navbar-brand:before,.navbar-default .navbar-nav > li.active a:before,.navbar-default .navbar-nav > li:hover a:before,h1:before,.dropdown-menu > li > a:hover,.nav-search,.nav-search button,.jp-play,.jp-pause,.audio-list-icon,.audio-progress .audio-play-bar,.album .hover li,.events_showcase .dropdown-menu li a:hover ,.events_showcase .event-feed a.btn,.event-feed a.btn:hover, .latest-post a.btn:hover,.more-events a,.news-feed-btn a:hover,.video-feed a,.store-item a:hover,.track .track_buy,.photo-item figcaption,.blog-post:hover .hover,.comment-write b, .comment-read b,.event-feed.latest .day,.tags li a,#contact #submit1:hover,#newsletter button,blockqoute:before {
+	background-color:#7e0bff;
+}
+
+.flex-caption,.blog-post .hover,footer .container{
+	border-color:#7e0bff;
+}
+
+footer h4 span,.news-feed h2:hover, .news-feed a:hover, .latest-post h2:hover,.latest-post h2 a:hover,.logo span,.yamm-content h4,.yamm-content a,.jp-playlist h5,.social li:hover a,.album .hover h2,.top-carouselnav a,.album-purchase a,.album-detail-content h4,.related-album h4,.breadcrumb h5,.events_showcase h5,.events_showcase h5,.events_showcase h6 span,.events_showcase h3 span,.event_calender td,.event-feed h5,.news-feed li span, .latest-post li span,.store-item h3,.artist a,.artist-detail-content h3,.track .track_title,.track_listen a i,.track .track_release span,.album-tracks .track .track_buy a,.album-tracks .track-head div,.album-tracks .track .track-head .track_title,.album-tracks .track .track-head .track_time,.photo-filter li a:hover,.comment-read h4,.comment-ul i, .comment-reply .comment-ul i,.event-feed.latest h5 a,.event-feed.latest b,.recent-post p, .admin-post p,#contact h3,#contact i, #contact b{
+	color:#7e0bff
+}
